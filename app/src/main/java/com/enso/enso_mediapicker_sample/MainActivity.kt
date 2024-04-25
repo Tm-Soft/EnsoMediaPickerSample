@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btn_select_image).setOnClickListener {
             startActivity(
                 Intent(this@MainActivity, EnsoMediaPickerActivity::class.java)
+                
             )
         }
     }
