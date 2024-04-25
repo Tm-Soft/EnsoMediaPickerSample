@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/iv_select_thumbnail"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="7dp"
+        tools:src="@drawable/ic_baseline_play_arrow_24"/>
+
+    <!-- 선택 된 이미지 순서 표시 -->
+    <FrameLayout
+        android:id="@+id/fl_select_close_button"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_gravity="top|end"
+        android:background="@drawable/bg_circle_gray">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_close_white" />
+
+    </FrameLayout>
+
+</FrameLayout>

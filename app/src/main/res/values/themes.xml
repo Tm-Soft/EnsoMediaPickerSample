@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EnsoImagePickerSample" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+    </style>
+
+    <style name="Theme.EnsoImagePickerSample" parent="Base.Theme.EnsoImagePickerSample" />
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+
+    <application
+        android:theme="@style/theme.EnsoImagePicker">
+
+        <activity
+            android:name="com.enso.ensomediapicker.EnsoMediaPickerActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>
